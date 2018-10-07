@@ -1,0 +1,85 @@
+body{ 
+	background: url("../images/bulb-background.jpg");
+	background-size: cover;
+	background-repeat:no;
+	background-attachment: fixed;
+	margin: 0 auto;
+}
+
+li[class="links"] a{
+	display: inline-block;
+	background: linear-gradient(to bottom right, black, white);
+	color: white;
+	margin-top: 5px;
+	width: 70%;
+}
+
+li[class="links"] a:hover{
+	background: white;
+	color: black;
+}
+
+li {
+	list-style-type: none;
+}
+
+h1{
+	font-family: 'Charmonman', cursive;
+	font-weight: bold;
+	font-size: 87px;
+}
+
+h5{
+	font-family: 'Gentium Basic', serif;
+}
+
+#homepage-body{
+	margin: 0 auto;
+	margin-top: 10px;
+
+}
+
+.container{
+	background: rgba(168, 168, 168, 0.35) ;
+	padding-top: 10%;
+	padding-bottom: 20%;
+	padding-left: 5%;
+	padding-right: 5%;
+
+}
+
+td{
+	margin: 4px;
+}
+
+#portfolio-links{
+	width: 70%;
+	margin: 0 auto;
+}
+
+#portfolio-links td:nth-of-type(1){
+	padding-left: 3%;
+	padding-top:1%;
+	padding-bottom:1%;
+	padding-right: 2%;
+	width: 10%;
+	color: black;
+
+}
+#portfolio-links td:nth-of-type(2){
+width: 50%;
+
+}
+
+.portfolio-links a{
+	color: black;
+}
+
+thead{
+	text-align: center;
+}
+
+.connect-links{
+	 
+}
+
