@@ -4,14 +4,42 @@ body{
 	background-repeat:no;
 	background-attachment: fixed;
 	margin: 0 auto;
+
+}
+
+
+/*
+	background: url("../images/flowers.JPG");
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100px;
+	height: 120px;
+	padding-top: 5%;
+	border-radius: 30px;
+*/
+
+
+#header-section{
+
+}
+
+#flower-image{
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	top: 0px;
+	left: 0px;
+	opacity: 0.7;
+	border-radius: 30px;
 }
 
 li[class="links"] a{
 	display: inline-block;
-	background: linear-gradient(to bottom right, black, white);
+	background: linear-gradient(to bottom right, #690755, #EDE6EC);
 	color: white;
 	margin-top: 5px;
 	width: 70%;
+	border-radius: 50px;
 }
 
 li[class="links"] a:hover{
@@ -26,7 +54,9 @@ li {
 h1{
 	font-family: 'Charmonman', cursive;
 	font-weight: bold;
-	font-size: 87px;
+	font-size: 90px;
+	opacity: none;
+	position: relative;
 }
 
 h5{
@@ -40,7 +70,7 @@ h5{
 }
 
 .container{
-	background: rgba(168, 168, 168, 0.35) ;
+	background: rgba(50, 164, 199, 0.1) ;
 	padding-top: 10%;
 	padding-bottom: 20%;
 	padding-left: 5%;
@@ -83,3 +113,6 @@ thead{
 	 
 }
 
+.links{
+	font-family: 'Cinzel', serif;
+}
