@@ -15,8 +15,10 @@ h1{
 }
 
 .image-sm{
-	width: 90%;
-	height: auto;
+	width: 100%;
+	height: 120%
+	object-fit: cover;
+	margin-bottom: 10px;
 }
 
 .project{

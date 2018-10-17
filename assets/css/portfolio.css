@@ -114,5 +114,11 @@ thead{
 }
 
 .links{
-	font-family: 'Cinzel', serif;
+	
+}
+
+.logo-images{
+	width: 60px;
+	height:60px;
+	border-radius: 20px;
 }
